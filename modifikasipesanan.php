@@ -26,7 +26,7 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="wisata.html">Wisata</a></li>
-                <li><a href="daftarpesanan.php">Daftar Paket Wisata</a></li>
+                <li><a href="daftarpesanan.html">Daftar Paket Wisata</a></li>
                 <li><a href="modifikasipesanan.html">Modifikasi Pesanan</a></li>
 
             </ul>
