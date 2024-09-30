@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: 0;
+}
+.medsos {
+    padding: 5px 0;
+    background-color: #60bb93;
+}
+.medsos ul li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+    padding: 0;
+}
+
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #60bb93; 
+}
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #60bb93;
+    color: #fff;
+}
+
+.active{
+    background-color: #60bb93;
+    color: #fff;
+}
+
+.banner{
+    height: 60vh;
+    background-image: url('../img/KotaMedan.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(96, 187, 147, .6);
+}
+.banner h2{
+    color: white;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid;
+}
+section{
+    padding: 50px 0;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #60bb93;
+    margin-bottom: 23px;
+}
+.about{
+    padding: 150px;
+}
+.about p{
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.wisata{
+    background-color: #f9f9f9;
+
+}
+
+.btn {
+    background-color: #60bb93;
+    height: 40px;
+}
+.btn:hover{
+    background-color: #59816f;
+}
+
+.btn p{
+    color: #f9f9f9;
+}
+
+.card-body{
+    color: #666; 
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.card{
+    border: 2px solid #60bb93;
+}
+
+.video-section{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background: #ccc;
+    padding: 30px;
+}
+
+.video-section h4{
+    text-align: center;
+    padding: 30px 0;
+    color: #60bb93;
+    margin-bottom: 20px;
+    
+}
+
+.video-wrapper iframe {
+    border: 2px solid #60bb93;
+    border-radius: 10px;
+}
+
+.card {
+    margin-right: 90px;
+}
+
+/* css form pesanan */
+
+.form {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="checkbox"] + label {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.form-cekbox div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-cekbox label {
+    order: 1;
+}
+
+.form-cekbox input[type="checkbox"] {
+    order: 2;
+    margin-bottom: 20px;
+}
+
+.form-button input[type="button"]{
+    background-color: #60bb93;
+    color: #fff;
+    width: 90px;
+}
+
+.form-button input[type="button"]:hover{
+    background-color: #59816f;
+}
+
+.form-button input[type="reset"]{
+    color: #fff;
+    width: 90px;
+    background-color: #fa6c34;
+}
+
+
+.form-button input[type="reset"]:hover{
+    background-color: #a35435;
+}
+
